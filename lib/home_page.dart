@@ -154,8 +154,7 @@ class HomePageState extends State<HomePage> {
                   context,
                   MaterialPageRoute(
                     builder: (context) => FavoritesPage(
-                      onFavoritesUpdated:
-                          loadFavoritePdfs,
+                      onFavoritesUpdated: loadFavoritePdfs,
                     ),
                   ),
                 );
@@ -223,20 +222,6 @@ class HomePageState extends State<HomePage> {
                         ],
                       ),
                       onTap: () {
-                        /*Book tappedBook = recentPdfs[index];
-
-                        // Mevcut listeyi kopyalayın ve yeni kitabı başa ekleyin
-                        List<Book> updatedList = [
-                          tappedBook,
-                          ...recentPdfs.where((book) => book != tappedBook)
-                        ];
-                        recentPdfs = updatedList;
-                        // Listeyi kaydedin
-                        BookStorage.saveBooks(
-                            recentPdfs, BookStorage.recentBooksKey);
-
-                        if (mounted) setState(() {});*/
-
                         Navigator.push(
                           context,
                           MaterialPageRoute(

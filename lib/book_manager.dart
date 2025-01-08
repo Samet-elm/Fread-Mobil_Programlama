@@ -137,26 +137,4 @@ class BookStorage {
     }
     return 0;
   }
-
-  /* Kitabın adını güncelleme fonksiyonu filepicker dan kaynaklı daha önceden eklenmiş pdfleri
-  eklememek için kullandığım path karşılaştırması işe yaramadığı için kaldırıldı
-  static Future<void> updateBookName(String oldPath, String newName) async {
-    List<Book> recentBooks = await loadBooks(_recentBooksKey);
-    int recentIndex = recentBooks.indexWhere((book) => book.path == oldPath);
-
-    if (recentIndex != -1) {
-      recentBooks[recentIndex].name = newName;
-    }
-
-    List<Book> favoriteBooks = await loadBooks(_favoriteBooksKey);
-    int favoriteIndex =
-        favoriteBooks.indexWhere((book) => book.path == oldPath);
-
-    if (favoriteIndex != -1) {
-      favoriteBooks[favoriteIndex].name = newName;
-    }
-
-    await saveBooks(recentBooks, _recentBooksKey);
-    await saveBooks(favoriteBooks, _favoriteBooksKey);
-  }*/
 }
