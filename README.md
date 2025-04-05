@@ -28,6 +28,7 @@
 2. Bağımlılıkları yükleyin
    ```bash
    flutter pub get
-3.Uygulamayı çalıştırın
+3. Uygulamayı çalıştırın
    ```bash
    flutter run
+   
