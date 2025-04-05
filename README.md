@@ -2,19 +2,25 @@
 
 **fRead**, Flutter ile geliştirilen basit ve hızlı bir mobil kitap okuma uygulamasıdır. Kullanıcıların cihazlarında bulunan PDF dosyalarını kolayca açmalarını ve okumalarını sağlar.
 
-## 🚀 Özellikler
+## Özellikler
 
-- 📂 Cihazdan doğrudan PDF dosyası açma
-- ⚡ Hızlı ve akıcı sayfa geçişleri
-- 🎯 Hafif ve kullanımı kolay arayüz
-- ❌ API ya da harici servis kullanmaz – tamamen yerel çalışır
+-  Cihazdan doğrudan PDF dosyası açma 
+-  Hızlı ve akıcı sayfa geçişleri
+-  Hafif ve kullanımı kolay arayüz
+-  API ya da harici servis kullanmaz – tamamen yerel çalışır
 
-## 🛠️ Teknolojiler
+## Teknolojiler
 
 - Flutter
-- `syncfusion_flutter_pdfviewer` paketi (veya kullandığın PDF görüntüleme paketi)
+- Paketler
+- `flutter_launcher_icons` 
+-`file_picker`
+-`flutter_pdfview`
+-`path_provider`
+-`shared_preferences`
 
-## 🔧 Kurulum
+
+## Kurulum
 
 1. Bu repoyu klonlayın:
    ```bash
@@ -24,4 +30,4 @@
    flutter pub get
 3.Uygulamayı çalıştırın
  ```bash
-flutter run
+   flutter run
