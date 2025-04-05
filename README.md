@@ -1,16 +1,27 @@
-# fread
+# fRead 📖
 
-A new Flutter project.
+**fRead**, Flutter ile geliştirilen basit ve hızlı bir mobil kitap okuma uygulamasıdır. Kullanıcıların cihazlarında bulunan PDF dosyalarını kolayca açmalarını ve okumalarını sağlar.
 
-## Getting Started
+## 🚀 Özellikler
 
-This project is a starting point for a Flutter application.
+- 📂 Cihazdan doğrudan PDF dosyası açma
+- ⚡ Hızlı ve akıcı sayfa geçişleri
+- 🎯 Hafif ve kullanımı kolay arayüz
+- ❌ API ya da harici servis kullanmaz – tamamen yerel çalışır
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Teknolojiler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- `syncfusion_flutter_pdfviewer` paketi (veya kullandığın PDF görüntüleme paketi)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Kurulum
+
+1. Bu repoyu klonlayın:
+   ```bash
+   git clone https://github.com/kullaniciadi/fread.git
+2. Bağımlılıkları yükleyin
+   ```bash
+   flutter pub get
+3.Uygulamayı çalıştırın
+ ```bash
+flutter run
