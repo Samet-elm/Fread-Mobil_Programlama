@@ -29,5 +29,5 @@
    ```bash
    flutter pub get
 3.Uygulamayı çalıştırın
- ```bash
+   ```bash
    flutter run
